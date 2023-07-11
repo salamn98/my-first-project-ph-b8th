@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.banner-img{
+    width: 400px;
+    
+}
+.banner-container{
+    display:flex;
+    justify-content: space-around;
+    height:100vh;
+    align-items: center;
+    color: rgb(7, 7, 7);
+    background-position: center;
+    background-size: cover;
+    background-color: #FFE5E5;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(229,84,115);
+    color: white;
+    border: none;
+     
+
+}
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+.text-primary{
+    color: #B83C51;
+}
+.footer-container{
+    display: center;
+    justify-content: space-around;
+    height:40vh;
+    text-align: center;
+    color: rgb(235, 229, 229);
+    background-position: center;
+    background-size: cover;
+    background-color: #0e0d0d;
+
+    
+}
+.footer-description{
+    font-size: 5px; 
+    margin-bottom: 15px;
+}
+.footer-title{
+    font-size: 30px;
+    font-weight: bold;
+}
