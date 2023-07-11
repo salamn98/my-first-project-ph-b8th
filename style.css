@@ -33,7 +33,7 @@ body{
     background-color: rgb(229,84,115);
     color: white;
     border: none;
-     
+   
 
 }
 .copy{
@@ -42,6 +42,71 @@ body{
 }
 .text-primary{
     color: #B83C51;
+}
+li{
+    display: inline;
+    
+   
+}
+.photo{
+    width:200px;
+    height: 250px;
+}
+.service-container{
+    display: center;
+    justify-content: space-around;
+    text-align: center;
+    i
+}
+.body-container{
+    display: flex ;
+    justify-content: space-around;
+    height:100vh;
+    align-items: center;
+    color: rgb(7, 7, 7);
+    background-position: center;
+    background-size: cover;   
+}
+.body-img{
+    width: 200px;
+}
+.body-text{
+    text-align: center;
+}
+.deals-container{
+    display:flex;
+    justify-content: space-around;
+    height:50vh;
+    align-items: center;
+    text-align: center;
+    background-image:url("./images/Rectangle\ 9.png"),
+    linear-gradient(45deg, rgba(252, 250, 250, 0.843),rgb(248, 247, 247));
+    background-position: center;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    
+}
+.title{
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+.description{
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+form{
+    padding: 10px 20px;
+    botton-color:rgb(229,84,115);
+    color: white;
+    border: none;
+
+}
+.box-text{
+    height: 32px;
+    width: 500px;
+    border: none;
 }
 .footer-container{
     display: center;
